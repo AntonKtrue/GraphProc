@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane id="BorderPane" fx:id="rootNode" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="620.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.GraphProcController">
+  <left>
+    <HBox prefHeight="456.0" prefWidth="310.0">
+      <children>
+        <VBox prefHeight="436.0" prefWidth="417.0" HBox.margin="$x2">
+          <children>
+            <Button fx:id="openFileButton" minWidth="-1.0" mnemonicParsing="false" onAction="#onClickOpenFileButton" text="Выбрать файл">
+              <VBox.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" fx:id="x1" />
+              </VBox.margin>
+            </Button>
+            <Label fx:id="chosenFileLabel" text="Label" VBox.margin="$x1" />
+            <Button fx:id="prepareMpsaButton" mnemonicParsing="false" onAction="#onClickPrepareButton" text="Подготовка" VBox.margin="$x1" />
+            <Label text="Label" VBox.margin="$x1" />
+            <ProgressBar prefWidth="266.0" progress="0.0" VBox.margin="$x1" />
+          </children>
+          <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" fx:id="x2" />
+          </padding>
+        </VBox>
+      </children>
+    </HBox>
+  </left>
+</BorderPane>

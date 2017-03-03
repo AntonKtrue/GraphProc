@@ -1,0 +1,28 @@
+			// nMap = currentItem.getAttributes();
+			// for (int j = 0; j < nMap.getLength(); j++) {
+			// Attr attr = (Attr) nMap.item(j);
+			// String attrName = attr.getNodeName();
+			// String attrValue = attr.getNodeValue();
+			// System.out.println("Found attribute: " + attrName + " with value:
+			// " + attrValue);
+			// }
+			//			NodeList childs = currentItem.getChildNodes();
+//			Integer childsCount = childs.getLength();
+//			for (int j = 0; j < childsCount; j++) {
+//				Node jj = childs.item(j);
+//				System.out.println(jj.getNodeName());
+//			}
+			// if(styleName.getValue().matches("^gr[1-9]+"))
+			// {
+			// XPath grXpath = XPathFactory.newInstance().newXPath();
+			
+			//				nMap = grProps.getAttributes();
+//				for (int j = 0; j < nMap.getLength(); j++) {
+//					Attr attr = (Attr) nMap.item(j);
+//					String attrName = attr.getNodeName();
+//					String attrValue = attr.getNodeValue();
+//					System.out.println("Found attribute: " + attrName + " with value: " + attrValue);
+//				}
+
+			// System.out.println("Found attribute: " + stylename.getNodeName()
+			// + " with value: " + stylename.getValue());
